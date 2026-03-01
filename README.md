@@ -26,7 +26,7 @@ ros2 run foxglove_mcap_player foxglove_mcap_player --ros-args \
 
 - **ROS 2** — `rclcpp`, `rosbag2_storage`
 - **[Foxglove SDK](https://github.com/foxglove/foxglove-sdk)** v0.18.0 (fetched automatically via CMake)
-- **[MCAP](https://github.com/foxglove/mcap)** v1.4.1 (header-only, fetched automatically via CMake)
+- **[MCAP](https://github.com/foxglove/mcap)** v2.1.3 (header-only, fetched automatically via CMake)
 - **lz4**, **zstd** — for MCAP decompression (system packages)
 
 ## Building

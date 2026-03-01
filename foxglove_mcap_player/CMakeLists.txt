@@ -49,7 +49,7 @@ set_target_properties(foxglove_cpp_static PROPERTIES POSITION_INDEPENDENT_CODE O
 target_link_libraries(foxglove_cpp_static PRIVATE ${foxglove_sdk_SOURCE_DIR}/lib/libfoxglove.a)
 
 # ── MCAP (header-only) ───────────────────────────────────────────────────────
-set(MCAP_VERSION "1.4.1")
+set(MCAP_VERSION "2.1.3")
 FetchContent_Declare(
   mcap
   URL "https://github.com/foxglove/mcap/archive/refs/tags/releases/cpp/v${MCAP_VERSION}.tar.gz"
