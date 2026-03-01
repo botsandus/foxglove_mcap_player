@@ -1,6 +1,6 @@
 # foxglove_mcap_player
 
-<video src="foxglove_mcap_player/media/demo.webm" autoplay loop muted playsinline></video>
+![Demo](foxglove_mcap_player/media/demo.gif)
 
 A ROS 2 node that plays back MCAP files (ROS 2 bags) with dual output:
 
